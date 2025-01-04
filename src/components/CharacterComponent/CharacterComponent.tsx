@@ -13,7 +13,6 @@ const CharacterComponent = ({value,children}:CharacterComponentType) => {
             <h2>{value.name} {value.surname}</h2>
             <img src={value.photo} alt={value.surname}/>
             <p>{children}</p>
-
         </div>
     );
 };
