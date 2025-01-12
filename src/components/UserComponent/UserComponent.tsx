@@ -15,7 +15,7 @@ const UserComponent = ({user}:PromiseType) => {
     return (
         <div>
             {user.firstName}
-            <button onClick={buttonNavigate}></button>
+            <button onClick={buttonNavigate}>detall</button>
 
         </div>
     );
